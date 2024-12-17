@@ -1,0 +1,38 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#aabbcc"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ADDITION"
+        android:background="#5D9BD9"
+        android:layout_margin="5dp"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/sub"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SUBSTRACTION"
+        android:background="#5D9BD9"
+        android:layout_margin="5dp"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/mul"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MULTIPLICATION"
+        android:background="#5D9BD9"
+        android:layout_margin="5dp"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/div"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DIVISION"
+        android:background="#5D9BD9"
+        android:layout_margin="5dp"/>
+
+
+</LinearLayout>
